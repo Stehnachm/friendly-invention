@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Mjsk98JavaSaxParser.jnlp">
+  <information>
+    <title>Mjsk98JavaSaxParser</title>
+    <vendor>mattstehnach</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Mjsk98JavaSaxParser.jar" size="7935" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Mjsk98JavaSaxParser" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mjsk98javasaxparser.Mjsk98JavaSaxParser"  name="Mjsk98JavaSaxParser" />
+  <update check="always"/>
+</jnlp>
